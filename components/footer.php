@@ -1,0 +1,37 @@
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <!-- Left Column -->
+            <div class="footer-col brand-col">
+                <h3 class="footer-brand">Centra</h3>
+                <p>A simpler way to connect your home.</p>
+            </div>
+            <!-- Right Column -->
+            <div class="footer-links-group">
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="product.php">Products</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ecosystem</h4>
+                    <ul>
+                        <li><a href="product.php#hub">Centra Hub</a></li>
+                        <li><a href="product.php#sense">Centra Sense</a></li>
+                        <li><a href="product.php#light">Centra Light</a></li>
+                        <li><a href="product.php#plug">Centra Plug</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Centra. All rights reserved.</p>
+            <p>Mark Anthony D. Manzon</p>
+        </div>
+    </div>
+</footer>
