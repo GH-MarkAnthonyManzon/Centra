@@ -34,8 +34,8 @@
           </p>
 
           <div class="hero-buttons">
-            <a href="product.php" class="btn btn-primary">Explore Products</a>
-            <a href="about.php" class="btn btn-secondary">Learn How It Works</a>
+            <a href="pages/product.php" class="btn btn-primary">Explore Products</a>
+            <a href="pages/about.php" class="btn btn-secondary">Learn How It Works</a>
           </div>
         </div>
 
@@ -127,7 +127,7 @@
 
         <div class="products-header">
           <h2>Meet the ecosystem.</h2>
-          <a href="product.php" class="explore-link">Explore All Products &rarr;</a>
+          <a href="pages/product.php" class="explore-link">Explore All Products &rarr;</a>
         </div>
 
         <!-- We wrap it in a carousel track -->
@@ -222,7 +222,7 @@
         <div class="brand-text">
           <h2>Smart technology, made for real life.</h2>
           <p>We believe smart homes should simplify your life, not add another thing to manage.</p>
-          <a href="about.php" class="btn btn-primary">About Centra</a>
+          <a href="pages/about.php" class="btn btn-primary">About Centra</a>
         </div>
 
         <div class="brand-visual">
@@ -241,7 +241,7 @@
 
         <div class="faq-header">
           <h2>Common questions.</h2>
-          <a href="about.php#faqs" class="explore-link">View All FAQs &rarr;</a>
+          <a href="pages/about.php#faqs" class="explore-link">View All FAQs &rarr;</a>
         </div>
 
         <div class="faq-list">
@@ -294,8 +294,8 @@
         <p>One ecosystem, designed to keep things simple.</p>
 
         <div class="cta-buttons">
-          <a href="product.php" class="btn btn-primary">Explore Products</a>
-          <a href="contact.php" class="btn btn-secondary-light">Contact Us</a>
+          <a href="pages/product.php" class="btn btn-primary">Explore Products</a>
+          <a href="pages/contact.php" class="btn btn-secondary-light">Contact Us</a>
         </div>
 
       </div>

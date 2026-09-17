@@ -12,19 +12,19 @@
                 <div class="footer-col">
                     <h4>Navigation</h4>
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="product.php">Products</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="/Centra/index.php">Home</a></li>
+                        <li><a href="/Centra/pages/product.php">Products</a></li>
+                        <li><a href="/Centra/pages/about.php">About</a></li>
+                        <li><a href="/Centra/pages/contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Ecosystem</h4>
                     <ul>
-                        <li><a href="product.php#hub">Centra Hub</a></li>
-                        <li><a href="product.php#sense">Centra Sense</a></li>
-                        <li><a href="product.php#light">Centra Light</a></li>
-                        <li><a href="product.php#plug">Centra Plug</a></li>
+                        <li><a href="/Centra/pages/product.php#hub">Centra Hub</a></li>
+                        <li><a href="/Centra/pages/product.php#sense">Centra Sense</a></li>
+                        <li><a href="/Centra/pages/product.php#light">Centra Light</a></li>
+                        <li><a href="/Centra/pages/product.php#plug">Centra Plug</a></li>
                     </ul>
                 </div>
             </div>

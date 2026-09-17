@@ -36,18 +36,18 @@
 
                 <div class="hero-visual">
                     <div class="product-hero-placeholder">
-                        <img src="assets/Centra Hub.webp" alt="Centra Hub" class="hub-center">
+                        <img src="../assets/Centra Hub.webp" alt="Centra Hub" class="hub-center">
 
                         <div class="orbit-container sense-orbit">
-                            <img src="assets/Centra Sense.webp" alt="Centra Sense" class="orbit-item">
+                            <img src="../assets/Centra Sense.webp" alt="Centra Sense" class="orbit-item">
                         </div>
 
                         <div class="orbit-container light-orbit">
-                            <img src="assets/Centra Light.webp" alt="Centra Light" class="orbit-item">
+                            <img src="../assets/Centra Light.webp" alt="Centra Light" class="orbit-item">
                         </div>
 
                         <div class="orbit-container plug-orbit">
-                            <img src="assets/Centra Plug.webp" alt="Centra Plug" class="orbit-item">
+                            <img src="../assets/Centra Plug.webp" alt="Centra Plug" class="orbit-item">
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@
         <section class="product-showcase" id="hub">
             <div class="container showcase-container">
                 <div class="showcase-visual">
-                    <img src="assets/Centra Hub.webp" alt="Centra Hub" class="showcase-image">
+                    <img src="../assets/Centra Hub.webp" alt="Centra Hub" class="showcase-image">
                 </div>
 
                 <div class="showcase-text">
@@ -88,7 +88,7 @@
                     </ul>
                 </div>
                 <div class="showcase-visual">
-                    <img src="assets/Centra Sense.webp" alt="Centra Hub" class="showcase-image">
+                    <img src="../assets/Centra Sense.webp" alt="Centra Hub" class="showcase-image">
                 </div>
 
             </div>
@@ -98,7 +98,7 @@
         <section class="product-showcase" id="light">
             <div class="container showcase-container">
                 <div class="showcase-visual">
-                    <img src="assets/Centra Light.webp" alt="Centra Hub" class="showcase-image">
+                    <img src="../assets/Centra Light.webp" alt="Centra Hub" class="showcase-image">
                 </div>
 
                 <div class="showcase-text">
@@ -126,7 +126,7 @@
                     </ul>
                 </div>
                 <div class="showcase-visual">
-                    <img src="assets/Centra Plug.webp" alt="Centra Hub" class="showcase-image">
+                    <img src="../assets/Centra Plug.webp" alt="Centra Hub" class="showcase-image">
                 </div>
 
             </div>
