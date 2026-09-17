@@ -7,14 +7,14 @@ if (isset($_POST['register_btn'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    // password hashing
+
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     $stmt = $conn->prepare("INSERT INTO users (name, email, password) VALUES (?, ?, ?)");
     $stmt->bind_param("sss", $name, $email, $hashed_password);
 
     if ($stmt->execute()) {
-        header("Location: login.php?registered=1");
+        header("Location: ../pages/login.php?registered=1");
         exit();
     } else {
         echo "Error creating account. That email might already be in use.";

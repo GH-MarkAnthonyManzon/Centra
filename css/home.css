@@ -17,6 +17,71 @@ html {
   overflow-x: hidden;
 }
 
+/* Navbar Login & User States */
+.nav-name {
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-logout {
+  color: #b91c1c !important;
+  background-color: #fee2e2;
+  font-weight: 600;
+  padding: 0.4rem 1.2rem;
+  border-radius: 50px;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+}
+
+.nav-logout:hover {
+  background: #fca5a5;
+  color: #7f1d1d !important;
+}
+
+
+.btn-nav-login {
+  margin-left: 20px;
+  padding: 0.5rem 1.2rem;
+  background: var(--color-primary);
+  color: white !important;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-nav-login:hover {
+  background: var(--color-text-dark);
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+/* Dark Mode Overrides for these specific items */
+.navbar.nav-dark-mode .nav-name {
+  color: #c1e9d3;
+}
+
+.navbar.nav-dark-mode .nav-logout {
+  background: rgba(220, 38, 38, 0.15);
+  color: #fca5a5 !important;
+}
+
+.navbar.nav-dark-mode .nav-logout:hover {
+  background: rgba(252, 165, 165, 0.1);
+  border-color: #fca5a5;
+}
+
+.navbar.nav-dark-mode .btn-nav-login {
+  background: white;
+  color: var(--color-primary) !important;
+}
+
+.navbar.nav-dark-mode .nav-logout:hover {
+  background: rgba(220, 38, 38, 0.3);
+  color: #fef2f2 !important;
+}
+
 /* ============= */
 /* Shared Dark Section Styles */
 /* ============= */

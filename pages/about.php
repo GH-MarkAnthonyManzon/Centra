@@ -12,15 +12,15 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="home.css" />
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/about.css" />
     <title>About</title>
 </head>
 
 <body>
 
     <!-- Header / Navbar -->
-    <?php require_once 'components/header.php'; ?>
+    <?php require_once '../components/header.php'; ?>
 
     <main>
 
@@ -244,9 +244,9 @@
     </main>
 
     <!-- Footer -->
-    <?php require_once 'components/footer.php'; ?>
+    <?php require_once '../components/footer.php'; ?>
 
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 

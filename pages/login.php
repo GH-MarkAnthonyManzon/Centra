@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Centra</title>
-    <link rel="stylesheet" href="home.css" />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
 </head>
 
 <body>
 
     <!-- Header / Navbar -->
-    <?php require_once 'components/header.php'; ?>
+    <?php require_once '../components/header.php'; ?>
 
     <main>
         <section class="contact-content" style="padding-top: 8rem;">
@@ -35,7 +35,7 @@
                         <script>window.history.replaceState(null, null, window.location.pathname);</script>
                     <?php endif; ?>
 
-                    <form class="contact-form" method="POST" action="process_login.php">
+                    <form class="contact-form" method="POST" action="../includes/process_login.php">
                         <div class="form-group">
                             <label for="email">Email Address</label>
                             <input type="email" id="email" placeholder="you@email.com" name="email" required>
@@ -47,8 +47,8 @@
                                 <input type="password" id="password" placeholder="Enter your password" name="password"
                                     required style="width: 100%; padding-right: 40px;">
                                 <span id="togglePassword"
-                                    style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 1.2rem;">
-                                    👁️
+                                    style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+                                    <img src="../assets/eye.svg" alt="Show password">
                                 </span>
                             </div>
                         </div>
@@ -68,9 +68,9 @@
     </main>
 
     <!-- Footer -->
-    <?php require_once 'components/footer.php'; ?>
+    <?php require_once '../components/footer.php'; ?>
 
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 
     <script>
         const togglePassword = document.querySelector('#togglePassword');
@@ -79,7 +79,9 @@
         togglePassword.addEventListener('click', function () {
             const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
             password.setAttribute('type', type);
-            this.textContent = type === 'password' ? '👁️' : '🙈';
+            this.innerHTML = type === 'password'
+                ? '<img src="../assets/eye.svg" alt="Show password">'
+                : '<img src="../assets/eye-off.svg" alt="Hide password">';
         });
     </script>
 </body>
