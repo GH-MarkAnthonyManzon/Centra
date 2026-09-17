@@ -24,6 +24,17 @@
     color: #4b5563;
 }
 
+/* CONTACT PROMPT MESSAGE AFTER CLICKING */
+.success-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #dff5e9;
+    color: #1C7C54;
+    border: 1px solid #c1e9d3;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
 /* ============= */
 /* Contact Content Section (Form & Info) */
 /* ============= */

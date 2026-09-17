@@ -20,7 +20,7 @@
 <body>
 
     <!-- Header / Navbar -->
-    <?php include 'components/header.php'; ?>
+    <?php require_once 'components/header.php'; ?>
 
     <main>
 
@@ -244,7 +244,7 @@
     </main>
 
     <!-- Footer -->
-    <?php include 'components/footer.php'; ?>
+    <?php require_once 'components/footer.php'; ?>
 
     <script src="script.js"></script>
 

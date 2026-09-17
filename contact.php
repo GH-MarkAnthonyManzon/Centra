@@ -20,7 +20,7 @@
 <body>
 
     <!-- Header / Navbar -->
-    <?php include 'components/header.php'; ?>
+    <?php require_once 'components/header.php'; ?>
 
     <main>
 
@@ -41,24 +41,44 @@
                 <!-- Contact Form (Left Column) -->
                 <div class="contact-form-wrapper">
                     <h2>Send us a message.</h2>
-                    <form class="contact-form">
+
+                    <!-- Custom Prompt Message Design -->
+                    <?php if (isset($_GET['success']) && $_GET['success'] == 1): ?>
+                        <div class="success-message">
+                            Message sent successfully!
+                        </div>
+                        <script>
+
+                            window.history.replaceState(null, null, window.location.pathname);
+
+                            setTimeout(function () {
+                                const messageBox = document.querySelector('.success-message');
+                                if (messageBox) {
+                                    messageBox.style.display = 'none';
+                                }
+                            }, 5000);
+                        </script>
+                    <?php endif; ?>
+
+
+                    <form class="contact-form" method="POST" action="process.php">
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" id="name" placeholder="Your name">
+                                <input type="text" id="name" placeholder="Your name" name="name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" placeholder="you@email.com">
+                                <input type="email" id="email" placeholder="you@email.com" name="email" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="subject">Subject</label>
-                            <input type="text" id="subject" placeholder="What's on your mind?">
+                            <input type="text" id="subject" placeholder="What's on your mind?" name="subject" required>
                         </div>
                         <div class="form-group">
                             <label for="inquiry">Inquiry type <span>(optional)</span></label>
-                            <select id="inquiry">
+                            <select id="inquiry" name="inquiry">
                                 <option value="" disabled selected>Select a category</option>
                                 <option value="products">Product Questions</option>
                                 <option value="ecosystem">Ecosystem & Compatibility</option>
@@ -71,9 +91,9 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" rows="5" placeholder="Tell us more..."></textarea>
+                            <textarea id="message" rows="5" placeholder="Tell us more..." name="message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" name="btn">Send Message</button>
                     </form>
                 </div>
 
@@ -125,7 +145,7 @@
     </main>
 
     <!-- Footer -->
-    <?php include 'components/footer.php'; ?>
+    <?php require_once 'components/footer.php'; ?>
 
     <script src="script.js"></script>
 
